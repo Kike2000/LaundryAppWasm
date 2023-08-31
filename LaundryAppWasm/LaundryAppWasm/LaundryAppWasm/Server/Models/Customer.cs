@@ -8,8 +8,8 @@ namespace LaundryAppWasm.Server.Models
         [MaxLength(60)]
         public string Name { get; set; }
         [MaxLength(50)]
-        public string Email { get; set; }
+        public string? Email { get; set; }
         [MaxLength(20)]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
     }
 }
