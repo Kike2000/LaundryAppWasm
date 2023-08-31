@@ -1,4 +1,6 @@
 using LaundryAppWasm.Server.DBContext;
+using LaundryAppWasm.Server.Repositories;
+using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +19,9 @@ builder.Services.AddScoped<ApplicationDbContext>(sp =>
 
     return new ApplicationDbContext(options);
 });
+
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

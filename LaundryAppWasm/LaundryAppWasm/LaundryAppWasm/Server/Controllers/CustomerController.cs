@@ -40,7 +40,6 @@ namespace LaundryAppWasm.Server.Controllers
         {
             try
             {
-                // Create a new customer record using Entity Framework
                 var customer = new Customer
                 {
                     Name = model.Name,
@@ -48,7 +47,7 @@ namespace LaundryAppWasm.Server.Controllers
                 _context.Customer.Add(customer);
                 await _context.SaveChangesAsync();
 
-                return Ok(); // or return the created customer, status code, etc.
+                return Ok();
             }
             catch (Exception ex)
             {
