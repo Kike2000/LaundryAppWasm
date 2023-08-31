@@ -14,5 +14,6 @@ namespace LaundryAppWasm.Server.DBContext
         }
 
         public DbSet<Customer> Customer { get; set; }
+        public DbSet<Service> Service { get; set; }
     }
 }
