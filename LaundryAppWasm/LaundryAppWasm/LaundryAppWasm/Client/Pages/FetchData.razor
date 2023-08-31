@@ -1,0 +1,69 @@
+﻿@page "/fetchdata"
+@using LaundryAppWasm.Shared
+@using LaundryAppWasm.Shared.DTOs
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (CustomersDto == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in CustomersDto)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h3>Create Customer</h3>
+
+<label>Name:</label>
+<input @bind="Customer.Name" />
+
+<button @onclick="CreateCustomer">Create</button>
+
+@code {
+    private IEnumerable<CustomerDto>? CustomersDto;
+    public CustomerDto Customer { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDto>>("api/customer");
+    }
+    private async Task LoadCustomers()
+    {
+        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDto>>("api/customer");
+    }
+    private async Task CreateCustomer()
+    {
+        var response = await Http.PostAsJsonAsync("api/customer", Customer);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadCustomers();
+            Customer = new CustomerDto();
+        }
+        else
+        {
+            // Handle error
+        }
+    }
+
+}
