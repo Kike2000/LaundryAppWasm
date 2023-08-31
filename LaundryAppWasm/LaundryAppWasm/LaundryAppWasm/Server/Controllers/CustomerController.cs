@@ -2,6 +2,7 @@ using LaundryAppWasm.Server.DBContext;
 using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Shared;
 using LaundryAppWasm.Shared.DTOs;
+using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LaundryAppWasm.Server.Controllers
@@ -10,29 +11,18 @@ namespace LaundryAppWasm.Server.Controllers
     [Route("api/customer")]
     public class CustomerController : ControllerBase
     {
-
-        private readonly ILogger<CustomerController> _logger;
-        private readonly ApplicationDbContext _context;
-        public CustomerController(ILogger<CustomerController> logger, ApplicationDbContext context)
+        private readonly ICustomerRepository _customerRepository;
+        public CustomerController(ILogger<CustomerController> logger, ApplicationDbContext context, ICustomerRepository customerRepository)
         {
-            _logger = logger;
-            _context = context;
+            _customerRepository = customerRepository;
         }
 
+
         [HttpGet]
-        public IEnumerable<CustomerDto> Get()
+        public async Task<ActionResult<IEnumerable<CustomerDto>>> Get()
         {
-            var customers = _context.Customer.ToList();
-            var customerDtoList = new List<CustomerDto>();
-            foreach (var item in customers)
-            {
-                var customerDto = new CustomerDto
-                {
-                    Name = item.Name,
-                };
-                customerDtoList.Add(customerDto);
-            }
-            return customerDtoList;
+            var customers = await _customerRepository.GetCustomersAsync();
+            return Ok(customers);
         }
 
         [HttpPost]
@@ -40,14 +30,8 @@ namespace LaundryAppWasm.Server.Controllers
         {
             try
             {
-                var customer = new Customer
-                {
-                    Name = model.Name,
-                };
-                _context.Customer.Add(customer);
-                await _context.SaveChangesAsync();
-
-                return Ok();
+                await _customerRepository.CreateCustomer(model);
+                return Ok(model);
             }
             catch (Exception ex)
             {
