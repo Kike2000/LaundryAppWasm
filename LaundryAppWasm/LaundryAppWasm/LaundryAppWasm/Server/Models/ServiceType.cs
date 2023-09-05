@@ -2,13 +2,12 @@
 
 namespace LaundryAppWasm.Server.Models
 {
-    public class Service
+    public class ServiceType
     {
         public int Id { get; set; }
-        [MaxLength(40)]
-        public string Name { get; set; }
-        [MaxLength(60)]
-        public string Description { get; set; }
+        public Item? Item { get; set; }
         public double Price { get; set; }
+        [MaxLength(15)]
+        public string? Type { get; set; }
     }
 }
