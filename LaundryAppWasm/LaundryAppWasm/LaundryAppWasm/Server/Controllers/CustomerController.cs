@@ -11,17 +11,17 @@ namespace LaundryAppWasm.Server.Controllers
     [Route("api/customer")]
     public class CustomerController : ControllerBase
     {
-        private readonly ICustomerRepository _customerRepository;
-        public CustomerController(ILogger<CustomerController> logger, ApplicationDbContext context, ICustomerRepository customerRepository)
+        private readonly ICustomer _customerInterface;
+        public CustomerController(ILogger<CustomerController> logger, ApplicationDbContext context, ICustomer customerInterface)
         {
-            _customerRepository = customerRepository;
+            _customerInterface = customerInterface;
         }
 
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CustomerDto>>> Get()
         {
-            var customers = await _customerRepository.GetCustomersAsync();
+            var customers = await _customerInterface.GetCustomersAsync();
             return Ok(customers);
         }
 
@@ -30,7 +30,7 @@ namespace LaundryAppWasm.Server.Controllers
         {
             try
             {
-                await _customerRepository.CreateCustomer(model);
+                await _customerInterface.CreateCustomer(model);
                 return Ok(model);
             }
             catch (Exception ex)

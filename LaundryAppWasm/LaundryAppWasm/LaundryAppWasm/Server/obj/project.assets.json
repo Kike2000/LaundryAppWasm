@@ -176,8 +176,21 @@
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/7.0.10": {
+      "Microsoft.AspNetCore.Identity.UI/6.0.21": {
         "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.21",
+          "Microsoft.Extensions.Identity.Stores": "6.0.21"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
         "build": {
           "build/Microsoft.AspNetCore.Identity.UI.props": {},
           "buildTransitive/Microsoft.AspNetCore.Identity.UI.targets": {}
@@ -538,6 +551,24 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.21": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
@@ -1586,10 +1617,10 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.UI/7.0.10": {
-      "sha512": "SxlAutmDx+pj1ENwh3lFSgAKSkUUMA1uGl8zCfL7uXbnwjSDvUZrMqGf7vahY0Ts2uqfQOjrP5NTMFn3QXSPsg==",
+    "Microsoft.AspNetCore.Identity.UI/6.0.21": {
+      "sha512": "DeRm3BQCMuoGKuMMWk8sLQn7zY/bMTP2fvEuOfA/0IAxAdyyO2oO7lMtYEGNja85mOsyWbOJl0g9/Qmj05g5kw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.ui/7.0.10",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.21",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1602,9 +1633,9 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.Identity.UI.targets",
         "buildTransitive/Microsoft.AspNetCore.Identity.UI.targets",
-        "lib/net7.0/Microsoft.AspNetCore.Identity.UI.dll",
-        "lib/net7.0/Microsoft.AspNetCore.Identity.UI.xml",
-        "microsoft.aspnetcore.identity.ui.7.0.10.nupkg.sha512",
+        "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Identity.UI.xml",
+        "microsoft.aspnetcore.identity.ui.6.0.21.nupkg.sha512",
         "microsoft.aspnetcore.identity.ui.nuspec",
         "staticwebassets/V4/css/site.css",
         "staticwebassets/V4/favicon.ico",
@@ -2501,6 +2532,29 @@
         "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.21": {
+      "sha512": "CDaCigED844Az5OQBzTeY1WBP+fW9dglFr8XO7uwZjX3HyjtN8W11cxYSHM2PDmHTZ88dACcXFQ2RrdmzIiR8w==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.6.0.21.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec",
+        "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
     "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
@@ -4604,7 +4658,7 @@
       "LaundryAppWasm.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.6",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.21",
-      "Microsoft.AspNetCore.Identity.UI >= 7.0.10",
+      "Microsoft.AspNetCore.Identity.UI >= 6.0.21",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
@@ -4672,7 +4726,7 @@
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
-            "version": "[7.0.10, )"
+            "version": "[6.0.21, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

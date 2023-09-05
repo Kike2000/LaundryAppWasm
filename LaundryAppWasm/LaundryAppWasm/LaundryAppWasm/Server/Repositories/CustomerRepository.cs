@@ -4,12 +4,11 @@ using LaundryAppWasm.Shared.DTOs;
 using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Common;
-using System.Threading.Tasks;
 
 
 namespace LaundryAppWasm.Server.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    public class CustomerRepository : ICustomer
     {
         private readonly ApplicationDbContext _context;
         public CustomerRepository(ApplicationDbContext context)

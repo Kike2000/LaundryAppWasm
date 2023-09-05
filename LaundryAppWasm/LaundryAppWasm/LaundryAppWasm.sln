@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryAppWasm.Server", "LaundryAppWasm\Server\LaundryAppWasm.Server.csproj", "{50C22ACD-C25F-4710-9BCD-A760C09A97EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAppWasm.Server", "LaundryAppWasm\Server\LaundryAppWasm.Server.csproj", "{50C22ACD-C25F-4710-9BCD-A760C09A97EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryAppWasm.Client", "LaundryAppWasm\Client\LaundryAppWasm.Client.csproj", "{59C325AC-1801-414B-BC75-44D3EB3D8A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAppWasm.Client", "LaundryAppWasm\Client\LaundryAppWasm.Client.csproj", "{59C325AC-1801-414B-BC75-44D3EB3D8A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryAppWasm.Shared", "LaundryAppWasm\Shared\LaundryAppWasm.Shared.csproj", "{5E95B5F0-0BCC-4766-851D-E83180599D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAppWasm.Shared", "LaundryAppWasm\Shared\LaundryAppWasm.Shared.csproj", "{5E95B5F0-0BCC-4766-851D-E83180599D57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

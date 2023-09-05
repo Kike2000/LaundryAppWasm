@@ -1,4 +1,5 @@
 using LaundryAppWasm.Server.DBContext;
+using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Server.Repositories;
 using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.AspNetCore.Identity;
@@ -12,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-builder.Services.AddScoped<ApplicationDbContext>(sp =>
+builder.Services.AddScoped(sp =>
 {
     var options = new DbContextOptionsBuilder<ApplicationDbContext>()
         .UseSqlServer("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=LaundryDb; Integrated Security=True")
@@ -20,10 +21,13 @@ builder.Services.AddScoped<ApplicationDbContext>(sp =>
 
     return new ApplicationDbContext(options);
 });
+//Injection of Interfaces
+builder.Services.AddScoped<IItem, ItemRepository>();
+builder.Services.AddScoped<ICustomer, CustomerRepository>();
 
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>()
+        .AddDefaultUI()
         .AddDefaultTokenProviders();
 var app = builder.Build();
 

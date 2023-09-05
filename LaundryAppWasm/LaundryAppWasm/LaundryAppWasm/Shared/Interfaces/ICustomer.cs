@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LaundryAppWasm.Shared.Interfaces
 {
-    public interface ICustomerRepository
+    public interface ICustomer
     {
         Task<IEnumerable<CustomerDto>> GetCustomersAsync();
         Task<CustomerDto> GetCustomerByIdAsync(int id);
