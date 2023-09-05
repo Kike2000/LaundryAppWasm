@@ -1,3 +1,9 @@
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.6.9skgxxfrcd.js
@@ -604,12 +610,6 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\icudt_no_CJK.dat
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\LaundryAppWasm.Shared.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\LaundryAppWasm.Shared.pdb
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.csproj.AssemblyReference.cache
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.AssemblyInfoInputs.cache
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.AssemblyInfo.cs
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.csproj.CoreCompileInputs.cache
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\syIDYIsW.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\zpEUS++I.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\LC5TOKoj.gz

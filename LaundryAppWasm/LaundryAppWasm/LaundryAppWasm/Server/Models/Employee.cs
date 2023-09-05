@@ -2,18 +2,16 @@
 
 namespace LaundryAppWasm.Server.Models
 {
-    public class Customer
+    public class Employee
     {
         public Guid Id { get; set; }
         [Required]
-        [MaxLength(30)]
+        [MaxLength(20)]
         public string? FirstName { get; set; }
         [Required]
-        [MaxLength(50)]
-        public string? LastName { get; set; }
-        [MaxLength(50)]
-        public string? Email { get; set; }
         [MaxLength(20)]
-        public string? PhoneNumber { get; set; }
+        public string? LastName { get; set; }
+        public string? Position { get; set; }
+        public string FullName { get { return FirstName + " " + LastName; } }
     }
 }

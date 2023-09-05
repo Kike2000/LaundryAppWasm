@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-zNVxhWqav+Wvwc8mjOqsl40bhVLw78MhgITrphqoROc=",
       "netstandard.dll": "sha256-yQ7oiuGXRX47V21EibXbfTPXOkJGOgCJhW9YF6e4hw0=",
       "System.Private.CoreLib.dll": "sha256-Ug2\/rd8Ck7Dls6uaZNmrqc7EvE8f41iX96qdX57LStQ=",
-      "LaundryAppWasm.Shared.dll": "sha256-vD2jlJ16uZsSPfYP2oOmqHRmxjDOoG7jr9zzuA4FthI=",
-      "LaundryAppWasm.Client.dll": "sha256-KK7IrTjL2lIZh+NI\/h68qZD1en6PoTHO+IQPNPdJWCA="
+      "LaundryAppWasm.Shared.dll": "sha256-OEoVO11w15Y4JlXXwXD3PD4EeNcXRnZuN+xftkdYx0Y=",
+      "LaundryAppWasm.Client.dll": "sha256-y0kE9UO7SSte+PQWIf\/x1B0FpP62XitLYOUNH8Kq0dA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "LaundryAppWasm.Shared.pdb": "sha256-+04kesRMK5nc4NrnIEtwzuLau\/vvX+OVFA0IgO6VJr8=",
-      "LaundryAppWasm.Client.pdb": "sha256-YSfkM7dRDmA9Q+a7ZPkjwN20re+TW8CdbzNaqSMrNlc="
+      "LaundryAppWasm.Shared.pdb": "sha256-UK+4WGLbG4brlqrKFC4\/um3FB7TbB8Fjt\/szKgvCYAg=",
+      "LaundryAppWasm.Client.pdb": "sha256-fJwxEDfZx6\/PanOYkSVkK5l3w3AOd5yiiPzTalnXZ7E="
     },
     "runtime": {
       "dotnet.6.0.6.9skgxxfrcd.js": "sha256-zJXgw\/tAzTVOXksPhtpZVT12vxHC7S9mQyBRM36dwD0=",

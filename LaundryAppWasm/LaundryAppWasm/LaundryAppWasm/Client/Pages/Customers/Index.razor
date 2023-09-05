@@ -22,7 +22,7 @@ else
             @foreach (var item in CustomersDto)
             {
                 <tr>
-                    <td>@item.Name</td>
+                    <td>@item.FirstName @item.LastName</td>
                 </tr>
             }
         </tbody>
@@ -31,8 +31,10 @@ else
 
 <h3>Create Customer</h3>
 
-<label>Name:</label>
-<input @bind="Customer.Name" />
+<label>First Name:</label>
+<input @bind="Customer.FirstName" />
+<label>Last Name:</label>
+<input @bind="Customer.LastName" />
 <label>Email:</label>
 <input @bind="Customer.Email" />
 <label>Phone:</label>

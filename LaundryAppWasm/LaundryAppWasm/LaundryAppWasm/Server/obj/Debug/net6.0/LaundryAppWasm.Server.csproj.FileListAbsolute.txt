@@ -58,9 +58,13 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -99,8 +103,3 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.pdb
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.genruntimeconfig.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\ref\LaundryAppWasm.Server.dll
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.MvcApplicationPartsAssemblyInfo.cs

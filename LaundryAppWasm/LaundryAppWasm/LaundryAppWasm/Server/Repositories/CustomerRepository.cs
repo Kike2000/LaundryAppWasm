@@ -21,7 +21,8 @@ namespace LaundryAppWasm.Server.Repositories
         {
             var customer = new Customer
             {
-                Name = customerDto.Name,
+                FirstName = customerDto.FirstName,
+                LastName = customerDto.LastName,
                 Email = customerDto.Email,
                 PhoneNumber = customerDto.PhoneNumber
             };
@@ -47,8 +48,8 @@ namespace LaundryAppWasm.Server.Repositories
             .Select(c => new CustomerDto
             {
                 Id = c.Id,
-                Name = c.Name,
-                // Map other properties...
+                FirstName = c.FirstName,
+                LastName = c.LastName,
             })
             .ToListAsync();
         }
