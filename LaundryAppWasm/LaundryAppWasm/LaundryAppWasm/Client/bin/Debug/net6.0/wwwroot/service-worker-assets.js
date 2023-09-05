@@ -93,8 +93,40 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
+      "hash": "sha256-vAlib690\/U0lcaGwnUfumNiXzWz8Yck7HlqrUFQOm2c=",
+      "url": "_framework\/Microsoft.AspNetCore.Cryptography.Internal.dll"
+    },
+    {
+      "hash": "sha256-Iwme6hkQvLtO831FdBaduBy8KtXqpFyMWrUXYJnhlqk=",
+      "url": "_framework\/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll"
+    },
+    {
+      "hash": "sha256-Q6TVYvRMmntPiox2S2\/6zkAVEP6qxRfEVgq3ktkrJ9U=",
+      "url": "_framework\/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll"
+    },
+    {
       "hash": "sha256-TWsXOgwB7TGU5zuqG46QFYIoZ1JprcYurxy\/bGZiMXU=",
       "url": "_framework\/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "hash": "sha256-LSRU+3J+SGGMHFY9Adh3KkELd5F6tKXVOZjobmMb9NY=",
+      "url": "_framework\/Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "hash": "sha256-Vism3dJBGDoYue8zwRsIdFGE6+doGP++DhPngKkbUoU=",
+      "url": "_framework\/Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "hash": "sha256-KxWi2AW0KIZE0DkhaqdLob+uNj2jWPcVQjiJdfJUT9Q=",
+      "url": "_framework\/Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "hash": "sha256-WLcZIKlgct2nj4hpaBvZXfHorQG9DH9B\/FZ2IKePG2I=",
+      "url": "_framework\/Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "hash": "sha256-aOJetx2rPupAGsXg2NCRL5p+\/xdzMyUSbmn24txWfQw=",
+      "url": "_framework\/Microsoft.Extensions.Caching.Memory.dll"
     },
     {
       "hash": "sha256-c8yYhfrOBLEnOBglLTu9peXSbJDwFpuT4UQiXSv28Og=",
@@ -117,7 +149,7 @@
       "url": "_framework\/Microsoft.Extensions.Configuration.Json.dll"
     },
     {
-      "hash": "sha256-KqgYK1NWqMxcNfw2Qah+gUhX2Nm+OZrHjyYDQ3VNCeA=",
+      "hash": "sha256-E+EQglKrE9ZXpnxrlzjqNQume4drxQ5JM68M0uAigAE=",
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
@@ -135,6 +167,14 @@
     {
       "hash": "sha256-viiXOG0fwhWobT0TQ1ZOJiZBdRvYRlWbDtjz+6d8sQI=",
       "url": "_framework\/Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "hash": "sha256-ApkposbTRgJmJsapBmR1ebuAEBeLpbPtc3OvR\/WFQUs=",
+      "url": "_framework\/Microsoft.Extensions.Identity.Core.dll"
+    },
+    {
+      "hash": "sha256-\/zeTYwGYUx9lip0EuGvhWAepAk6GHQ5MyP2VSuUb6RU=",
+      "url": "_framework\/Microsoft.Extensions.Identity.Stores.dll"
     },
     {
       "hash": "sha256-GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=",
@@ -159,6 +199,10 @@
     {
       "hash": "sha256-Lc7+j1yrzEs5\/zzv62fwz02\/1EkqvYpcZy3kSOtAjGc=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "hash": "sha256-r77uwcH5emBoVq\/xBNq3S5A8Fmz2UraG6zulO4RSwoA=",
+      "url": "_framework\/System.Diagnostics.DiagnosticSource.dll"
     },
     {
       "hash": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
@@ -267,10 +311,6 @@
     {
       "hash": "sha256-tUCd3ov7QrjYob8AA39SBAWbfsyggNbtPbO0AdFH2tY=",
       "url": "_framework\/System.Diagnostics.Debug.dll"
-    },
-    {
-      "hash": "sha256-KmexLyYxoBsrDcwIHKgdc+3ZjwVk\/04zgZHORvFywCU=",
-      "url": "_framework\/System.Diagnostics.DiagnosticSource.dll"
     },
     {
       "hash": "sha256-+rTrw6ZymS88lOGWBojD\/d5Q5Dr63Q2GTvHldLu1lFI=",
@@ -857,19 +897,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-OEoVO11w15Y4JlXXwXD3PD4EeNcXRnZuN+xftkdYx0Y=",
+      "hash": "sha256-cFq+\/3bWGFeyrcRGpSk\/bL1qPaN6zEAEi09BQ64W\/UM=",
       "url": "_framework\/LaundryAppWasm.Shared.dll"
     },
     {
-      "hash": "sha256-UK+4WGLbG4brlqrKFC4\/um3FB7TbB8Fjt\/szKgvCYAg=",
+      "hash": "sha256-S6txSC7VTLKd5ZtAPQTk29efKHTy3WH8r9DvNkm5b2U=",
       "url": "_framework\/LaundryAppWasm.Shared.pdb"
     },
     {
-      "hash": "sha256-y0kE9UO7SSte+PQWIf\/x1B0FpP62XitLYOUNH8Kq0dA=",
+      "hash": "sha256-YdlNhy\/McLX++ufu86Nmt7YT32no8jGLfosn8r1BkKs=",
       "url": "_framework\/LaundryAppWasm.Client.dll"
     },
     {
-      "hash": "sha256-fJwxEDfZx6\/PanOYkSVkK5l3w3AOd5yiiPzTalnXZ7E=",
+      "hash": "sha256-Xd8ZHVq2gpTw\/nW\/ZYnBtTVAj4PemEENg5m6ibYwkiA=",
       "url": "_framework\/LaundryAppWasm.Client.pdb"
     },
     {
@@ -877,9 +917,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-+36zEXSYkXnWb8IeBmhp1bN8BhqvqZuuRIjKvF4l4Wg=",
+      "hash": "sha256-4o\/ccS0q2XiPVnSeI59n6US\/LpFSe\/ExUlhRtyDdUBY=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "bwVUoAoi"
+  "version": "94SZD98w"
 };

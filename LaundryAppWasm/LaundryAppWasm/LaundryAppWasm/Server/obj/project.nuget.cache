@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tFb5nI3zVyUrCxgxnF6nT3ue24OLeDZJqtmNqrAWmi0wF4W/ZNqWJneGSS1kvK6scaWGAD8ouQ18Be9sSD7yXg==",
+  "dgSpecHash": "hyfNYJE15vYOWLNrRwhwNYHLDOMhz+P7YHjmzB776r8maTHuqe8UmIUBenopMTm8VEbiYe1HvQYi+wp0zxjYVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Server\\LaundryAppWasm.Server.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,10 @@
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.6\\microsoft.aspnetcore.components.web.6.0.6.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.6\\microsoft.aspnetcore.components.webassembly.6.0.6.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.6\\microsoft.aspnetcore.components.webassembly.server.6.0.6.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.21\\microsoft.aspnetcore.cryptography.internal.6.0.21.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.21\\microsoft.aspnetcore.cryptography.keyderivation.6.0.21.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.21\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.21.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.10\\microsoft.aspnetcore.identity.ui.7.0.10.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.6\\microsoft.aspnetcore.metadata.6.0.6.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -40,6 +44,8 @@
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.21\\microsoft.extensions.identity.core.6.0.21.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.21\\microsoft.extensions.identity.stores.6.0.21.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
