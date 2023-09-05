@@ -50,7 +50,7 @@ else
     {
         ItemsDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
     }
-    private async Task LoadCustomers()
+    private async Task LoadItems()
     {
         ItemsDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
     }
@@ -60,7 +60,7 @@ else
 
         if (response.IsSuccessStatusCode)
         {
-            await LoadCustomers();
+            await LoadItems();
             Item = new ItemDTO();
         }
         else

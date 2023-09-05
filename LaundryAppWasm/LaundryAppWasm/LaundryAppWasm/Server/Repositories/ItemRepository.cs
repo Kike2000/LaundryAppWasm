@@ -1,7 +1,9 @@
 ﻿using LaundryAppWasm.Server.DBContext;
+using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Shared.DTOs;
 using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Data.Common;
 
 namespace LaundryAppWasm.Server.Repositories
 {
@@ -12,6 +14,26 @@ namespace LaundryAppWasm.Server.Repositories
         {
             _context = context;
         }
+
+        public async Task CreateITem(ItemDTO itemDto)
+        {
+            var item = new Item
+            {
+                Name = itemDto.Name,
+                Type = (Models.Type)itemDto.Type,
+                Description = itemDto.Description,
+            };
+            try
+            {
+                _context.Item.Add(item);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbException ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task<IEnumerable<ItemDTO>> GetItemsAsync()
         {
             return await _context.Item

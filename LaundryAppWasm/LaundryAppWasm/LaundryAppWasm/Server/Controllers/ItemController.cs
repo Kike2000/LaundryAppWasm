@@ -22,5 +22,19 @@ namespace LaundryAppWasm.Server.Controllers
             return Ok(customers);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Post(ItemDTO model)
+        {
+            try
+            {
+                await _itemInterface.CreateITem(model);
+                return Ok(model);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            finally { }
+        }
     }
 }

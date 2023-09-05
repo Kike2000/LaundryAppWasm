@@ -10,5 +10,6 @@ namespace LaundryAppWasm.Shared.Interfaces
     public interface IItem
     {
         Task<IEnumerable<ItemDTO>> GetItemsAsync();
+        Task CreateITem(ItemDTO item);
     }
 }
