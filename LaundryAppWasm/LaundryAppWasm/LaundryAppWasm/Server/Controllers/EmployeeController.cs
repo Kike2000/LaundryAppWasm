@@ -1,4 +1,4 @@
-using LaundryAppWasm.Server.DBContext;
+﻿using LaundryAppWasm.Server.DBContext;
 using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Shared;
 using LaundryAppWasm.Shared.DTOs;
@@ -8,22 +8,20 @@ using Microsoft.AspNetCore.Mvc;
 namespace LaundryAppWasm.Server.Controllers
 {
     [ApiController]
-    [Route("api/customer")]
-    public class CustomerController : ControllerBase
+    [Route("api/employee")]
+    public class EmployeeController : ControllerBase
     {
-        private readonly ICustomer _customerInterface;
-        public CustomerController(ILogger<CustomerController> logger, ApplicationDbContext context, ICustomer customerInterface)
+        private readonly IEmployee _employeeInterface;
+        public EmployeeController(IEmployee employeeInterface)
         {
-            _customerInterface = customerInterface;
+            _employeeInterface = employeeInterface;
         }
-
-
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CustomerDTO>>> Get()
+        public async Task<ActionResult<IEnumerable<EmployeeDTO>>> Get()
         {
             try
             {
-                var customers = await _customerInterface.GetCustomersAsync();
+                var customers = await _employeeInterface.GetEmployeesAsync();
                 return Ok(customers);
             }
             catch (Exception ex)
@@ -34,11 +32,11 @@ namespace LaundryAppWasm.Server.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(CustomerDTO model)
+        public async Task<IActionResult> Post(EmployeeDTO model)
         {
             try
             {
-                await _customerInterface.CreateCustomer(model);
+                await _employeeInterface.CreateEmployee(model);
                 return Ok(model);
             }
             catch (Exception ex)

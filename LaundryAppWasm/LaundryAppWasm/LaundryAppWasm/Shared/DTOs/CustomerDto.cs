@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaundryAppWasm.Shared.DTOs
 {
-    public class CustomerDto
+    public class CustomerDTO
     {
         public Guid Id { get; set; }
         public string? FirstName { get; set; }

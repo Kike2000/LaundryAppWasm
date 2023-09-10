@@ -43,16 +43,16 @@ else
 <button @onclick="CreateCustomer">Create</button>
 
 @code {
-    private IEnumerable<CustomerDto>? CustomersDto;
-    public CustomerDto Customer { get; set; } = new();
+    private IEnumerable<CustomerDTO>? CustomersDto;
+    public CustomerDTO Customer { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
-        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDto>>("api/customer");
+        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDTO>>("api/customer");
     }
     private async Task LoadCustomers()
     {
-        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDto>>("api/customer");
+        CustomersDto = await Http.GetFromJsonAsync<List<CustomerDTO>>("api/customer");
     }
     private async Task CreateCustomer()
     {
@@ -61,7 +61,7 @@ else
         if (response.IsSuccessStatusCode)
         {
             await LoadCustomers();
-            Customer = new CustomerDto();
+            Customer = new CustomerDTO();
         }
         else
         {

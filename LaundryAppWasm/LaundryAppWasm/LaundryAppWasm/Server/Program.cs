@@ -24,6 +24,7 @@ builder.Services.AddScoped(sp =>
 //Injection of Interfaces
 builder.Services.AddScoped<IItem, ItemRepository>();
 builder.Services.AddScoped<ICustomer, CustomerRepository>();
+builder.Services.AddScoped<IEmployee, EmployeeRepository>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>()

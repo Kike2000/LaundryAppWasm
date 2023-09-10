@@ -19,6 +19,6 @@ namespace LaundryAppWasm.Shared.DTOs
         [MaxLength(50)]
         public string? Email { get; set; }
         [MaxLength(20)]
-        public string? PhoneNumber { get; set; }
+        public string? Position { get; set; }
     }
 }

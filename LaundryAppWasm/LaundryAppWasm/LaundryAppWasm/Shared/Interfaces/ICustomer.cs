@@ -9,9 +9,9 @@ namespace LaundryAppWasm.Shared.Interfaces
 {
     public interface ICustomer
     {
-        Task<IEnumerable<CustomerDto>> GetCustomersAsync();
-        Task<CustomerDto> GetCustomerByIdAsync(int id);
-        Task CreateCustomer(CustomerDto customer);
-        Task UpdateCustomer(CustomerDto customer);
+        Task<IEnumerable<CustomerDTO>> GetCustomersAsync();
+        Task<CustomerDTO> GetCustomerByIdAsync(int id);
+        Task CreateCustomer(CustomerDTO customer);
+        Task UpdateCustomer(CustomerDTO customer);
     }
 }

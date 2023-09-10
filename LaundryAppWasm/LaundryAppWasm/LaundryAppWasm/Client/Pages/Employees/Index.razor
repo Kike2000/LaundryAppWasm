@@ -1,0 +1,72 @@
+﻿@page "/Items"
+@using LaundryAppWasm.Shared
+@using LaundryAppWasm.Shared.DTOs
+@inject HttpClient Http
+
+<PageTitle>Index</PageTitle>
+
+
+@if (ItemsDTO == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ItemsDTO)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h3>Create Item</h3>
+
+<label>Name:</label>
+<input @bind="Item.Name" />
+<label>Description:</label>
+<input @bind="Item.Description" />
+<label>Type:</label>
+<input @bind="Item.Type" />
+
+<button @onclick="CreateItem">Create</button>
+
+@code {
+    private IEnumerable<ItemDTO>? ItemsDTO;
+    public ItemDTO Item { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        ItemsDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
+    }
+    private async Task LoadItems()
+    {
+        ItemsDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
+    }
+    private async Task CreateItem()
+    {
+        var response = await Http.PostAsJsonAsync("api/item", Item);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadItems();
+            Item = new ItemDTO();
+        }
+        else
+        {
+            
+        }
+    }
+
+}
