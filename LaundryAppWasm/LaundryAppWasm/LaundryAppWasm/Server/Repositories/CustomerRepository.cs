@@ -16,7 +16,7 @@ namespace LaundryAppWasm.Server.Repositories
             _context = context;
         }
 
-        public async Task CreateCustomer(CustomerDto customerDto)
+        public async Task CreateCustomer(CustomerDTO customerDto)
         {
             var customer = new Customer
             {
@@ -36,15 +36,15 @@ namespace LaundryAppWasm.Server.Repositories
             }
         }
 
-        public Task<CustomerDto> GetCustomerByIdAsync(int id)
+        public Task<CustomerDTO> GetCustomerByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<CustomerDto>> GetCustomersAsync()
+        public async Task<IEnumerable<CustomerDTO>> GetCustomersAsync()
         {
             return await _context.Customer
-            .Select(c => new CustomerDto
+            .Select(c => new CustomerDTO
             {
                 Id = c.Id,
                 FirstName = c.FirstName,
@@ -53,9 +53,15 @@ namespace LaundryAppWasm.Server.Repositories
             .ToListAsync();
         }
 
-        public Task UpdateCustomer(CustomerDto customer)
+        public Task UpdateCustomer(CustomerDTO customer)
         {
             throw new NotImplementedException();
         }
+
+        Task<CustomerDTO> ICustomer.GetCustomerByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
