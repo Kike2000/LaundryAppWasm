@@ -1,6 +1,7 @@
 ﻿using LaundryAppWasm.Server.DBContext;
 using LaundryAppWasm.Shared.DTOs;
 using LaundryAppWasm.Shared.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace LaundryAppWasm.Server.Repositories
 {
@@ -34,9 +35,16 @@ namespace LaundryAppWasm.Server.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<EmployeeDTO>> GetEmployeesAsync()
+        public async Task<IEnumerable<EmployeeDTO>> GetEmployeesAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Employee
+           .Select(c => new EmployeeDTO
+           {
+               Id = c.Id,
+               FirstName = c.FirstName,
+               LastName = c.LastName,
+           })
+           .ToListAsync();
         }
 
         public Task UpdateEmployee(EmployeeDTO customer)
