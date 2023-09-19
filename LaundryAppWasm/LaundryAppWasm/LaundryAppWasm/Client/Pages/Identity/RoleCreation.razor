@@ -1,0 +1,28 @@
+﻿@page "/create-role"
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+<h3>Create Role</h3>
+
+<EditForm Model="@roleModel" OnValidSubmit="CreateRole">
+    <DataAnnotationsValidator />
+
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="RoleName">Role Name:</label>
+        <InputText id="RoleName" @bind-Value="roleModel.Name" class="form-control" />
+        <ValidationMessage For="@(() => roleModel.Name)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Role</button>
+</EditForm>
+
+@code {
+    private IdentityRole roleModel = new IdentityRole();
+
+    private async Task CreateRole()
+    {
+         var response = await Http.PostAsJsonAsync("api/account/registerrole", roleModel);
+
+    }
+}

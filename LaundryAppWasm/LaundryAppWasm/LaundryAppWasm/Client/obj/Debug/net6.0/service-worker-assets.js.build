@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -869,7 +869,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-zJXgw\/tAzTVOXksPhtpZVT12vxHC7S9mQyBRM36dwD0=",
+      "hash": "sha256-fMo83pOkJ6cfKZuvfJ3X2OuqrpwGCuCcNzxTKU7tl9Y=",
       "url": "_framework\/dotnet.6.0.6.9skgxxfrcd.js"
     },
     {
@@ -897,19 +897,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-1YJSoesIvDt1sIpuBrUrXxf1fMO7SH4gXpvft451zXA=",
+      "hash": "sha256-gu8JwWi2Q3URRYsoIY5mqeyn\/7EwhAIyfPW3f9hnzEQ=",
       "url": "_framework\/LaundryAppWasm.Shared.dll"
     },
     {
-      "hash": "sha256-MbxnbonGMKFdCUlyGFMX0AldSjbfkQaxOXywXBvLTPQ=",
+      "hash": "sha256-Jb9tGhyqKmtHkjK87v5jtwb0eA3XieNq7dw1+Ref5oY=",
       "url": "_framework\/LaundryAppWasm.Shared.pdb"
     },
     {
-      "hash": "sha256-JoL\/7A0WrVqWWWkJgV4ZA\/VjDBI\/HakVOUVzdYQuwSI=",
+      "hash": "sha256-FR9XZK9KYvZ4KDJC\/Du8tH3DJ0jEEvtiND9tZZcfVa8=",
       "url": "_framework\/LaundryAppWasm.Client.dll"
     },
     {
-      "hash": "sha256-cfAn3eTKkcXlIKG1gSab9eGIAYKzzgMRHU7Mew\/F08w=",
+      "hash": "sha256-siBYFmf1thqeuyTmSEECPnb0ffaRMljC5qJLlFytvF4=",
       "url": "_framework\/LaundryAppWasm.Client.pdb"
     },
     {
@@ -917,9 +917,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-zUE3lFzVnN+wHSM47Srzbrs0usj7em0bf6csDnEKzG8=",
+      "hash": "sha256-QQ7NDQfdVGNehOdeGh9dhZjtIP7oHPt0o8YkGWLJlOo=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "g6COchUZ"
+  "version": "U9msGkJH"
 };
