@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LOFRiddZ5/BAy1+81ICBJqdKslnSgiY4ZaJA+zr340Q=",
+  "Hash": "nzZPvHlqHzfhQvCzgLbHcFOl3b1hAQ39kWaqTX6xkK4=",
   "Source": "LaundryAppWasm.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -252,7 +252,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.22\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.22\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.22\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -388,7 +405,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.22\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -711,7 +728,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -3842,6 +3859,23 @@
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Reader.dll"
     },
     {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\20cckEug.gz",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\2CZ0yGvH.gz",
       "SourceId": "LaundryAppWasm.Client",
       "SourceType": "Computed",
@@ -4692,23 +4726,6 @@
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll"
     },
     {
-      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\cCzY+nPG.gz",
-      "SourceId": "LaundryAppWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\CDNUrhuL.gz",
       "SourceId": "LaundryAppWasm.Client",
       "SourceType": "Computed",
@@ -4945,6 +4962,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\FZJIbrVZ.gz",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\g8Ga5QH6.gz",
@@ -5268,6 +5302,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\LaundryAppWasm.Shared.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\IQZIcDYw.gz",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\IuahTd3A.gz",
@@ -6052,6 +6103,23 @@
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.dll"
     },
     {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\orhMhVqc.gz",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\orhoMLVt.gz",
       "SourceId": "LaundryAppWasm.Client",
       "SourceType": "Computed",
@@ -6375,23 +6443,6 @@
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\LaundryAppWasm.Client.pdb"
     },
     {
-      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\rCmUF65r.gz",
-      "SourceId": "LaundryAppWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\REAipe9L.gz",
       "SourceId": "LaundryAppWasm.Client",
       "SourceType": "Computed",
@@ -6492,23 +6543,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\syIDYIsW.gz",
-      "SourceId": "LaundryAppWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\T5UUSTJp.gz",
@@ -6696,6 +6730,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\UjXNMXks.gz",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\uOXF+BEx.gz",
@@ -7172,23 +7223,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
-    },
-    {
-      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\zpEUS++I.gz",
-      "SourceId": "LaundryAppWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\zwcFyflO.gz",

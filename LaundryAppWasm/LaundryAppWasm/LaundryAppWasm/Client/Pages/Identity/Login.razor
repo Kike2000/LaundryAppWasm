@@ -1,0 +1,43 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Components.Forms
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject NavigationManager _navigation
+@inject AuthenticationStateProvider _AuthenticationService
+
+<h3>Login</h3>
+
+<EditForm OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label for="InputEmail">Email address</label>
+        <InputText class="form-control" id="InputEmail" @bind-Value="username" />
+        @*<ValidationMessage For="() => loginModel.Email" />*@
+    </div>
+    <div class="form-group">
+        <label for="InputPassword">Password</label>
+        <input type="password" id="ConfirmPassword" class="form-control" @bind="password" />
+        
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+@code {
+    private string username;
+    private string password;
+
+    private async Task HandleLogin()
+    {
+        // Implement your login logic here.
+        // Use the AuthenticationStateProvider to authenticate the user.
+        var authState = await _AuthenticationService.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        // Check user credentials and set the user's identity if login is successful.
+        // You can use user.AddIdentity() to set the claims for the authenticated user.
+
+        // Redirect the user to the appropriate page after successful login.
+        _navigation.NavigateTo("/dashboard");
+    }
+}
+

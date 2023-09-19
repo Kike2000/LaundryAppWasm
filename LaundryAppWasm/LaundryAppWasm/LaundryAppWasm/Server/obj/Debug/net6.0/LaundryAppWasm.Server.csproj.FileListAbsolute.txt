@@ -111,3 +111,4 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.pdb
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.genruntimeconfig.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\ref\LaundryAppWasm.Server.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll

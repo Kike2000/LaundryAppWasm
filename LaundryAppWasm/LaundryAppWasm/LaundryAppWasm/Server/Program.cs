@@ -2,6 +2,8 @@ using LaundryAppWasm.Server.DBContext;
 using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Server.Repositories;
 using LaundryAppWasm.Shared.Interfaces;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
@@ -25,11 +27,13 @@ builder.Services.AddScoped(sp =>
 builder.Services.AddScoped<IItem, ItemRepository>();
 builder.Services.AddScoped<ICustomer, CustomerRepository>();
 builder.Services.AddScoped<IEmployee, EmployeeRepository>();
-
+builder.Services.AddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>()
         .AddDefaultUI()
         .AddDefaultTokenProviders();
+builder.Services.AddAuthenticationCore();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

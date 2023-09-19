@@ -640,15 +640,12 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.AssemblyInfo.cs
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.csproj.CoreCompileInputs.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\syIDYIsW.gz
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\zpEUS++I.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\LC5TOKoj.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\Dago+Ycg.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\PLYyoOmu.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\kp3oCwNO.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\oe4KXvPX.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\a5QJCSp0.gz
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\rCmUF65r.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\Mn+xpK39.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\OUGMIh9+.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\h5QceqQ+.gz
@@ -667,7 +664,6 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\MAv64SSW.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\nauzgWWn.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\4QN4zz6F.gz
-C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\cCzY+nPG.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\44FXq92z.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\nlF0fgwU.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\JC21RKXp.gz
@@ -865,3 +861,11 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\refint\LaundryAppWasm.Client.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\LaundryAppWasm.Client.pdb
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\ref\LaundryAppWasm.Client.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\FZJIbrVZ.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\UjXNMXks.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\orhMhVqc.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\20cckEug.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\IQZIcDYw.gz

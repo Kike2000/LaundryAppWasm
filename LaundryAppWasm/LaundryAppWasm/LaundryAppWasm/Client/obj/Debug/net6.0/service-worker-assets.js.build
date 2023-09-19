@@ -81,6 +81,10 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
+      "hash": "sha256-xFA5Y1Ae9hdfJ\/DomalGid8VKJxIYsZ\/cQmd09HJwuA=",
+      "url": "_framework\/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "hash": "sha256-tc\/Tc3X1BHL58Qq+EiKqndDuweTp46BVc5QSeTLpxdc=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.dll"
     },
@@ -905,11 +909,11 @@
       "url": "_framework\/LaundryAppWasm.Shared.pdb"
     },
     {
-      "hash": "sha256-FR9XZK9KYvZ4KDJC\/Du8tH3DJ0jEEvtiND9tZZcfVa8=",
+      "hash": "sha256-weenxlHxKDVpL+zo1nJXVVyCjuWvw9ANiA9J7mThBng=",
       "url": "_framework\/LaundryAppWasm.Client.dll"
     },
     {
-      "hash": "sha256-siBYFmf1thqeuyTmSEECPnb0ffaRMljC5qJLlFytvF4=",
+      "hash": "sha256-r5qwyJX\/sf6ZloDSVv1tlG8XSgxpHvt0Te2roLM2QfQ=",
       "url": "_framework\/LaundryAppWasm.Client.pdb"
     },
     {
@@ -917,9 +921,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-QQ7NDQfdVGNehOdeGh9dhZjtIP7oHPt0o8YkGWLJlOo=",
+      "hash": "sha256-bZbuCEg9VXglVfktWzMYozsBQ4QG2iM7I\/pk1PxtAqQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "U9msGkJH"
+  "version": "3c5B03W8"
 };
