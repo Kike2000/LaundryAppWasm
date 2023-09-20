@@ -45,6 +45,27 @@ namespace LaundryAppWasm.Server.Controllers
             // Registration failed; return validation errors.
             return BadRequest(ModelState);
         }
+
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(UserModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (_signInManager.IsSignedIn(User))
+                {
+                    return Ok();
+                }
+                else
+                {
+                    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                    return result.Succeeded ? Ok() : BadRequest(result.IsNotAllowed);
+                }
+            }
+            return Ok();
+        }
+
+
         [AllowAnonymous]
         [HttpPost("registerrole")]
         public async Task<IActionResult> RegisterRole(IdentityRole model)
@@ -73,7 +94,22 @@ namespace LaundryAppWasm.Server.Controllers
             return BadRequest(ModelState);
         }
 
-        public class RegisterModel
+        public class RegisterModel : BaseUser
+        {
+
+            [Required]
+            [Compare("Password")]
+            public string ConfirmPassword { get; set; }
+
+            [Required]
+            public string Role { get; set; }
+        }
+        public class UserModel : BaseUser
+        {
+            public bool RememberMe { get; set; }
+        }
+
+        public class BaseUser
         {
             [Required]
             [EmailAddress]
@@ -83,12 +119,6 @@ namespace LaundryAppWasm.Server.Controllers
             [MinLength(6)]
             public string Password { get; set; }
 
-            [Required]
-            [Compare("Password")]
-            public string ConfirmPassword { get; set; }
-
-            [Required]
-            public string Role { get; set; }
         }
 
     }
