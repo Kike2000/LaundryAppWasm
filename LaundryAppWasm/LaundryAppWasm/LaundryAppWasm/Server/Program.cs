@@ -1,11 +1,7 @@
 using LaundryAppWasm.Server.DBContext;
-using LaundryAppWasm.Server.Models;
 using LaundryAppWasm.Server.Repositories;
 using LaundryAppWasm.Shared.Interfaces;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

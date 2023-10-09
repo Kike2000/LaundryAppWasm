@@ -112,3 +112,13 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.genruntimeconfig.cache
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\ref\LaundryAppWasm.Server.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\staticwebassets\msbuild.LaundryAppWasm.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.LaundryAppWasm.Server.props
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LaundryAppWasm.Server.props
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LaundryAppWasm.Server.props
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Blazorise.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Blazorise.Licensing.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\DeepCloner.dll
