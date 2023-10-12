@@ -2865,7 +2865,8 @@
           "LaundryAppWasm.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.22",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.6",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
+          "System.IdentityModel.Tokens.Jwt": "6.21.0"
         },
         "compile": {
           "bin/placeholder/LaundryAppWasm.Client.dll": {}
