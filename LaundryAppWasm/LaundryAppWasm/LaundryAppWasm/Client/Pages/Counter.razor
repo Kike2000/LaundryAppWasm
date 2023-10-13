@@ -5,9 +5,18 @@
 <h1>Counter</h1>
 
 <p role="status">Current count: @currentCount</p>
+<AuthorizeView>
+    <Authorized>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
+        <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    </Authorized>
+    <NotAuthorized>
+        Usted no está autorizado
+    </NotAuthorized>
+    <Authorizing>
+        Autorizando
+    </Authorizing>
+</AuthorizeView>
 @code {
     private int currentCount = 0;
 

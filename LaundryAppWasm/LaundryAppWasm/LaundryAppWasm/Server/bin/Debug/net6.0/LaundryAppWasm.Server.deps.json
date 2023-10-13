@@ -10,6 +10,7 @@
         "dependencies": {
           "LaundryAppWasm.Client": "1.0.0",
           "LaundryAppWasm.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.23",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.22",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
@@ -127,6 +128,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.23": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.21.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "6.0.23.0",
+            "fileVersion": "6.0.2323.48007"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.22": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.22",
@@ -137,6 +149,17 @@
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.2223.42415"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Blazor.HttpClient/3.1.0-preview3.19555.2": {
+        "dependencies": {
+          "System.Text.Json": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.HttpClient.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.55502"
           }
         }
       },
@@ -1627,6 +1650,7 @@
           "Blazorise.Bootstrap": "1.3.1",
           "Blazorise.Icons.FontAwesome": "1.3.1",
           "LaundryAppWasm.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Blazor.HttpClient": "3.1.0-preview3.19555.2",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.22",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
@@ -1705,12 +1729,26 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/TfelJX4wpENzYXIZ5mo/SpqBNTNWmuDpIXMnWF0fcBKCjB+JcOmD3hNW8tdw4/05/fs3rhtvrOuVl0D+6x1Q==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.23",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.23.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authorization/6.0.22": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-onuqrnE8NJgvtGteh6HzdgVfwYxd4Kc2rJC9MSpiTn/YegeAjxabbtaWAHz53qrOeO1RZ+N5v1gqSFZo3fFOlg==",
       "path": "microsoft.aspnetcore.authorization/6.0.22",
       "hashPath": "microsoft.aspnetcore.authorization.6.0.22.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Blazor.HttpClient/3.1.0-preview3.19555.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/NQEuVtCONdO+w/PxAGCcb1nxGEtu5uwIeJgr3tt0s/d3/TE/Pl9OznfeSW4tdgwTkGCtNmxFV+V4lLhZgqV1A==",
+      "path": "microsoft.aspnetcore.blazor.httpclient/3.1.0-preview3.19555.2",
+      "hashPath": "microsoft.aspnetcore.blazor.httpclient.3.1.0-preview3.19555.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components/6.0.22": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DvVfERn7jpRi/qH+p4hmbEvoBY8enr8vgbkMqPCH6LxtOkxEB9tKqaSHCITW1N/dlTo04qci/XcjkF93IdEVxQ==",
+  "dgSpecHash": "SnDJAbkX15dUX16IcN9DP4SZqccghbcJCVZSMWq+URIzB3w9+EoREqQ1geyLyaeqgpRClzMtCF2NTI+LQUS4OA==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Server\\LaundryAppWasm.Server.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,9 @@
     "C:\\Users\\pedro\\.nuget\\packages\\blazorise.licensing\\1.1.0\\blazorise.licensing.1.1.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\deepcloner\\0.10.4\\deepcloner.0.10.4.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.23\\microsoft.aspnetcore.authentication.jwtbearer.6.0.23.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.22\\microsoft.aspnetcore.authorization.6.0.22.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.1.0-preview3.19555.2\\microsoft.aspnetcore.blazor.httpclient.3.1.0-preview3.19555.2.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.22\\microsoft.aspnetcore.components.6.0.22.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.22\\microsoft.aspnetcore.components.analyzers.6.0.22.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.22\\microsoft.aspnetcore.components.authorization.6.0.22.nupkg.sha512",

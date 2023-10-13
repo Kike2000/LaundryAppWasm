@@ -13,6 +13,7 @@
       "Blazorise.Licensing.dll": "sha256-8tlrWdLCNCewIvlBXiZvZX\/VZJk9uj1zL+BPHNETMsY=",
       "DeepCloner.dll": "sha256-0z32Jj39dxvhAObryD60N1OemfRoFvti9RLp8VkWXSI=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-BuTZoNe3SjBdyltUzXQ0UyoWAGbHi4fo6lF1Y68dZKI=",
+      "Microsoft.AspNetCore.Blazor.HttpClient.dll": "sha256-CTtStjrBz1C8w5aEQc4tAami0m0Q6QjE8UkoeJdxjEs=",
       "Microsoft.AspNetCore.Components.dll": "sha256-4DZ5QQAyWxk1XAIfozfpwWAPgBR9nCtsjf72EuTqsFg=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-xFA5Y1Ae9hdfJ\/DomalGid8VKJxIYsZ\/cQmd09HJwuA=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-WacOkftcr8EcT8ZJ3tK3teVbueVCNt7HbDfB30M7Rq0=",
@@ -217,15 +218,15 @@
       "mscorlib.dll": "sha256-jLSTHHaK0z\/mSPOgXaDKfukqvF20Fcm\/DLx+zz0kYsc=",
       "netstandard.dll": "sha256-eWmNGfejUeBAxr01xTdL9vgARF2KwlV2JPpYdaokts8=",
       "System.Private.CoreLib.dll": "sha256-5w4iRqv9MYyA0CG9D1wGOudtAmfU8mI10S6SKDD\/scI=",
-      "LaundryAppWasm.Shared.dll": "sha256-e9Wt4Xd60nQTRghyAbg9jfpY+5z0tgYFKsp84JK6Bp8=",
-      "LaundryAppWasm.Client.dll": "sha256-yVGFx+sJ3OMKDIAysUXffH142\/sXYGorwJzONQKcvLA="
+      "LaundryAppWasm.Shared.dll": "sha256-J3oyJuKtS0idVSgMqFwIL72w6G3m1lTG9lgq9Qh3b6k=",
+      "LaundryAppWasm.Client.dll": "sha256-5iAh8bVuKfVfZPSunqQbKW7eJlfkkJ+apJkVvwQpIuw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "LaundryAppWasm.Shared.pdb": "sha256-C4fQojN0uGCLZYaz9ptflofECLbTwpLvIP\/9bZCwq+I=",
-      "LaundryAppWasm.Client.pdb": "sha256-Xr+98zpIbQFzkC8Ds1Geu0Qh+v2vW2Av2m9n5Q1xRo8="
+      "LaundryAppWasm.Shared.pdb": "sha256-IKmDHBRjFrWKCQ9\/r9cWCXpG4nl3np31Yrg3Y9cPas0=",
+      "LaundryAppWasm.Client.pdb": "sha256-eBU2ez2ZYRYPrdDOjJp+JfQa\/1K5wqKawRlckH+5a00="
     },
     "runtime": {
       "dotnet.6.0.22.3h0a6nko9k.js": "sha256-Vpgzm0BMIfPGXG2SCtEChw5HmXlQJIIS0eyBG8kP+u4=",

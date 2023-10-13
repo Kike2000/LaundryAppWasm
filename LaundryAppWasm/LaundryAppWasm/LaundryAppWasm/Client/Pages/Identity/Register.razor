@@ -1,73 +1,41 @@
-﻿<!-- RegistrationForm.razor -->
-@page "/register"
-@using System.ComponentModel.DataAnnotations
-@inject HttpClient Http
+﻿@page "/registro"
+<h3>Registro</h3>
+@inject HttpClient http
+@inject NavigationManager uriHelper
+@inject ILoginService loginService
 
-<h3>Register</h3>
+@using LaundryAppWasm.Client.Auth;
+@using LaundryAppWasm.Shared.Models;
 
-<EditForm Model="@registrationModel" OnValidSubmit="RegisterUser">
+<EditForm Model="userInfo" OnValidSubmit="CrearUsuario">
     <DataAnnotationsValidator />
 
-    <div class="form-group">
-        <label for="Email">Email</label>
-        <InputText id="Email" class="form-control" @bind-Value="registrationModel.Email" />
-        <ValidationMessage For="() => registrationModel.Email" />
+    <div class="form-field">
+        <label>Email:</label>
+        <div>
+            <InputText Class="form-control" @bind-Value="@userInfo.Email" />
+            <ValidationMessage For="@(() => userInfo.Email)" />
+        </div>
+    </div>
+    <div class="form-field">
+        <label>Password:</label>
+        <div>
+            <InputPassword Class="form-control" @bind-Value="@userInfo.Password" />
+            <ValidationMessage For="@(() => userInfo.Password)" />
+        </div>
     </div>
 
-    <div class="form-group">
-        <label for="Password">Password</label>
-        <input type="password" id="Password" class="form-control" @bind="registrationModel.Password" />
-        <ValidationMessage For="() => registrationModel.Password" />
-    </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
 
-    <div class="form-group">
-        <label for="ConfirmPassword">Confirm Password</label>
-        <input type="password" id="ConfirmPassword" class="form-control" @bind="registrationModel.ConfirmPassword" />
-        <ValidationMessage For="() => registrationModel.ConfirmPassword" />
-    </div>
-
-    <div class="form-group">
-        <label for="Role">Role</label>
-        <InputText id="Email" class="form-control" @bind-Value="registrationModel.Role" />
-        <ValidationMessage For="() => registrationModel.Role" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Register</button>
 </EditForm>
 
 @code {
-    private RegistrationModel registrationModel = new RegistrationModel();
+    private UserInfo userInfo = new UserInfo();
 
-    private async Task RegisterUser()
+    private async Task CrearUsuario()
     {
-
-        var response = await Http.PostAsJsonAsync("api/account/register", registrationModel);
-
-        if (response.IsSuccessStatusCode)
-        {
-            // Handle successful registration (e.g., navigate to a success page).
-        }
-        else
-        {
-            // Handle registration errors (e.g., display error messages).
-        }
-    }
-
-    private class RegistrationModel
-    {
-        [Required(ErrorMessage = "Email is required.")]
-        [EmailAddress(ErrorMessage = "Invalid email address.")]
-        public string Email { get; set; }
-
-        [Required(ErrorMessage = "Password is required.")]
-        [MinLength(6, ErrorMessage = "Password must be at least 6 characters.")]
-        public string Password { get; set; }
-
-        [Required(ErrorMessage = "Confirm Password is required.")]
-        [Compare("Password", ErrorMessage = "Passwords do not match.")]
-        public string ConfirmPassword { get; set; }
-
-        [Required(ErrorMessage = "Role is required.")]
-        public string Role { get; set; }
+        var result = await http.PostJsonAsync<UserToken>("api/account/register", userInfo);
+        await loginService.Login(result.Token);
+        uriHelper.NavigateTo("");
     }
 }

@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Pages/Identity/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Pages/Identity/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Pages/Items/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Shared/InputPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXElucHV0UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Shared/LoginLinks.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGlua3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pedro/OneDrive/Documentos/GitHub/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/LaundryAppWasm/Client/Shared/RedirectToLogin.razor]

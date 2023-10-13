@@ -914,3 +914,7 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\jSjvo+Se.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\7t+zWJjz.gz
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\f060BDvf.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Blazor.HttpClient.dll.gz
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Client\obj\Debug\net6.0\build-gz\md5GG+gN.gz

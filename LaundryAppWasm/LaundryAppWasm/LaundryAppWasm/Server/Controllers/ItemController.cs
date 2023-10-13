@@ -1,6 +1,8 @@
 ﻿using LaundryAppWasm.Server.Repositories;
 using LaundryAppWasm.Shared.DTOs;
 using LaundryAppWasm.Shared.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LaundryAppWasm.Server.Controllers
@@ -16,6 +18,7 @@ namespace LaundryAppWasm.Server.Controllers
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<IEnumerable<ItemDTO>>> Get()
         {
             var customers = await _itemInterface.GetItemsAsync();
