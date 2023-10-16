@@ -2,10 +2,53 @@
 @using LaundryAppWasm.Shared
 @using LaundryAppWasm.Shared.DTOs
 @inject HttpClient Http
+@inject IJSRuntime JSRuntime
+<PageTitle>Index - Employees</PageTitle>
 
-<PageTitle>Index</PageTitle>
+@* <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
 
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="employeeDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="employeeDetailsModalLabel">Create</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>First Name:</label>
+                        <input class="form-control" @bind="Employee.FirstName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Last Name:</label>
+                        <input class="form-control" @bind="Employee.LastName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Email:</label>
+                        <input class="form-control" @bind="Employee.Email" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Position:</label>
+                        <input class="form-control" @bind="Employee.Position" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button @onclick="CreateItem" type="button" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+    </div>
+</div> *@
 
+<button type="button" class="btn btn-primary" @onclick="@( () => { mode = MODE.ADD; Employee = new EmployeeDTO(); } )">
+    Create
+</button>
 @if (EmployeesDTO == null)
 {
     <p><em>Loading...</em></p>
@@ -16,7 +59,9 @@ else
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Email</th>
                 <th>Position</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -24,51 +69,118 @@ else
             {
                 <tr>
                     <td>@item.FirstName @item.LastName</td>
+                    <td>@item.Email</td>
                     <td>@item.Position</td>
+                    <td>
+                        <button @onclick="()=>UpdateEmployeeDetails(item.Id)" type="button" class="btn btn-secondary float-start">Edit</button>
+                        <button @onclick="()=>RemoveEmployee(item.Id)" type="button" class="btn btn-warning float-end">Delete</button>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
 }
-
-<h3>Create Employee Record</h3>
-
-<label>First Name:</label>
-<input @bind="Employee.FirstName" />
-<label>Last Name:</label>
-<input @bind="Employee.LastName" />
-<label>Email:</label>
-<input @bind="Employee.Email" />
-<label>Position:</label>
-<input @bind="Employee.Position" />
-
-<button @onclick="CreateItem">Create</button>
-
+@if (mode != MODE.NONE)
+{
+    <div class="card">
+        <div class="card-header">
+            @if (mode == MODE.ADD)
+            {
+                <h4>Create Employee Record</h4>
+            }
+            else
+            {
+                <h4>Update Employee Record</h4>
+            }
+        </div>
+        <div class="card-body">
+            <EditForm Model="Employee">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>First Name:</label>
+                        <input class="form-control" @bind="Employee.FirstName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Last Name:</label>
+                        <input class="form-control" @bind="Employee.LastName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Email:</label>
+                        <input class="form-control" @bind="Employee.Email" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Position:</label>
+                        <input class="form-control" @bind="Employee.Position" />
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+        <div class="card-footer">
+            <button @onclick="SaveEmployee" type="button" class="btn btn-primary float-start">Save</button>
+            <button @onclick="@( () => { mode = MODE.NONE; Employee = new EmployeeDTO(); } )" type="button" class="btn btn-warning float-end">Cancel</button>
+        </div>
+    </div>
+}
 @code {
     private IEnumerable<EmployeeDTO>? EmployeesDTO;
     public EmployeeDTO Employee { get; set; } = new();
-
+    private bool isEditMode = false; // Initially, the form is in Create mode
+    private MODE mode = MODE.NONE;
     protected override async Task OnInitializedAsync()
     {
         EmployeesDTO = await Http.GetFromJsonAsync<List<EmployeeDTO>>("api/employee");
     }
-    private async Task LoadItems()
+    private async Task LoadEmployees()
     {
         EmployeesDTO = await Http.GetFromJsonAsync<List<EmployeeDTO>>("api/employee");
     }
-    private async Task CreateItem()
+    private async Task SaveEmployee()
     {
-        var response = await Http.PostAsJsonAsync("api/employee", Employee);
+        HttpResponseMessage response = new HttpResponseMessage();
+
+        switch (mode)
+        {
+            case MODE.ADD:
+                response = await Http.PostAsJsonAsync("api/employee", Employee);
+                break;
+            case MODE.UPDATE:
+                response = await Http.PutAsJsonAsync("api/employee", Employee);
+                break;
+            default:
+                break;
+        }
 
         if (response.IsSuccessStatusCode)
         {
-            await LoadItems();
+            await LoadEmployees();
             Employee = new EmployeeDTO();
+            mode = MODE.NONE;
         }
-        else
+    }
+
+    async void UpdateEmployeeDetails(Guid id)
+    {
+        Employee = await Http.GetFromJsonAsync<EmployeeDTO>($"api/employee/{id}");
+        mode = MODE.UPDATE;
+        StateHasChanged();
+    }
+
+
+    private async Task RemoveEmployee(Guid id)
+    {
+        var response = await Http.DeleteAsync($"api/employee/{id}");
+
+        if (response.IsSuccessStatusCode)
         {
-            
+            await LoadEmployees();
+            Employee = new EmployeeDTO();
+            mode = MODE.NONE;
         }
+    }
+
+    private enum MODE
+    {
+        NONE, ADD, UPDATE, DELETE
     }
 
 }

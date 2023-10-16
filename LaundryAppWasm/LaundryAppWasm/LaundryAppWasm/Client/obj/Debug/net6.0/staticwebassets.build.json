@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mBpMnyqlrKUU70GQUfq6yGn7lnLPvIQj1r6I03cwfwo=",
+  "Hash": "u0eZPJfIwT99kavUVk7CjwnASGyuZTVyaV/a4+NSVDk=",
   "Source": "LaundryAppWasm.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -8685,6 +8685,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\wwwroot\\js\\interop.js",
+      "SourceId": "LaundryAppWasm.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/interop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\interop.js"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Client\\wwwroot\\manifest.json",

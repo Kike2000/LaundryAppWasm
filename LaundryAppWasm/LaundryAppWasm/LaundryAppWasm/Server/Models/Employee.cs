@@ -12,6 +12,7 @@ namespace LaundryAppWasm.Server.Models
         [MaxLength(20)]
         public string? LastName { get; set; }
         public string? Position { get; set; }
+        public string Email { get; set; }
         public string FullName { get { return FirstName + " " + LastName; } }
     }
 }

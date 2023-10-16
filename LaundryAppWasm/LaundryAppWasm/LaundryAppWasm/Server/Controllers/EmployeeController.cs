@@ -4,6 +4,7 @@ using LaundryAppWasm.Shared;
 using LaundryAppWasm.Shared.DTOs;
 using LaundryAppWasm.Shared.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LaundryAppWasm.Server.Controllers
 {
@@ -31,6 +32,21 @@ namespace LaundryAppWasm.Server.Controllers
             }
         }
 
+        [HttpGet("{id:guid}")]
+        public async Task<EmployeeDTO?> GetEmployeeByIdAsync(Guid id)
+        {
+            try
+            {
+                var employeeDTO = await _employeeInterface.GetEmployeeByIdAsync(id);
+                return employeeDTO;
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return null;
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(EmployeeDTO model)
         {
@@ -38,6 +54,36 @@ namespace LaundryAppWasm.Server.Controllers
             {
                 await _employeeInterface.CreateEmployee(model);
                 return Ok(model);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            finally { }
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Update(EmployeeDTO model)
+        {
+            try
+            {
+                var result = await _employeeInterface.UpdateEmployee(model);
+                return Ok(model);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            finally { }
+        }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            try
+            {
+                await _employeeInterface.DeleteEmployee(id);
+                return Ok();
             }
             catch (Exception ex)
             {

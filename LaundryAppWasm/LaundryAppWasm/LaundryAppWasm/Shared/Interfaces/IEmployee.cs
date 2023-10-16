@@ -10,8 +10,9 @@ namespace LaundryAppWasm.Shared.Interfaces
     public interface IEmployee
     {
         Task<IEnumerable<EmployeeDTO>> GetEmployeesAsync();
-        Task<EmployeeDTO> GetEmployeeByIdAsync(int id);
-        Task CreateEmployee(EmployeeDTO customer);
-        Task UpdateEmployee(EmployeeDTO customer);
+        Task<EmployeeDTO> GetEmployeeByIdAsync(Guid id);
+        Task CreateEmployee(EmployeeDTO employeeDTO);
+        Task<bool> UpdateEmployee(EmployeeDTO employeeDTO);
+        Task<bool> DeleteEmployee(Guid Id);
     }
 }
