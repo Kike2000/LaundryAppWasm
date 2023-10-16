@@ -961,11 +961,11 @@
       "url": "_framework\/LaundryAppWasm.Shared.pdb"
     },
     {
-      "hash": "sha256-WJjdIF8YNjFGsYf5R8FgNSy4T2u5R8c+jDfC97OUnhM=",
+      "hash": "sha256-QOu9nMV9VguEBcIglo0AMoHjYogDdBCZdlRNHHZHpBo=",
       "url": "_framework\/LaundryAppWasm.Client.dll"
     },
     {
-      "hash": "sha256-r793m42KLXichEArPsdG7EkrKgw51VINICXwUMg1Dm0=",
+      "hash": "sha256-FeSZTi2gM06aOflJGoHYwzpE0ICKPWZlmnPmtd5vm5k=",
       "url": "_framework\/LaundryAppWasm.Client.pdb"
     },
     {
@@ -973,7 +973,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-MaNM4D62ZgSCRhxepCaAEiCQwiJYSzAqLhcL31Us0SY=",
+      "hash": "sha256-jtCkVBtF62aJHd7L9CS4ZYqscIEkBcF7\/jAhJqpXtGM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1137,5 +1137,5 @@
       "url": "_content\/Blazorise.Bootstrap\/tooltip.js"
     }
   ],
-  "version": "qGkU\/3wC"
+  "version": "S7IIxJ1T"
 };

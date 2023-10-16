@@ -73,7 +73,7 @@ else
                     <td>@item.Position</td>
                     <td>
                         <button @onclick="()=>UpdateEmployeeDetails(item.Id)" type="button" class="btn btn-secondary float-start">Edit</button>
-                        <button @onclick="()=>RemoveEmployee(item.Id)" type="button" class="btn btn-warning float-end">Delete</button>
+                        <button @onclick="()=>RemoveEmployee(item.Id)" type="button" class="btn btn-danger float-end">Delete</button>
                     </td>
                 </tr>
             }
@@ -117,7 +117,7 @@ else
         </div>
         <div class="card-footer">
             <button @onclick="SaveEmployee" type="button" class="btn btn-primary float-start">Save</button>
-            <button @onclick="@( () => { mode = MODE.NONE; Employee = new EmployeeDTO(); } )" type="button" class="btn btn-warning float-end">Cancel</button>
+            <button @onclick="@( () => { mode = MODE.NONE; Employee = new EmployeeDTO(); } )" type="button" class="btn btn-danger float-end">Cancel</button>
         </div>
     </div>
 }

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAppWasm.Client", "La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAppWasm.Shared", "LaundryAppWasm\Shared\LaundryAppWasm.Shared.csproj", "{5E95B5F0-0BCC-4766-851D-E83180599D57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryAppWasm.Test", "LaundryAppWasm.Test\LaundryAppWasm.Test.csproj", "{1BD07CC3-223E-4E53-8A0F-B5C537DBE69B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5E95B5F0-0BCC-4766-851D-E83180599D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E95B5F0-0BCC-4766-851D-E83180599D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E95B5F0-0BCC-4766-851D-E83180599D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD07CC3-223E-4E53-8A0F-B5C537DBE69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD07CC3-223E-4E53-8A0F-B5C537DBE69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD07CC3-223E-4E53-8A0F-B5C537DBE69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD07CC3-223E-4E53-8A0F-B5C537DBE69B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
