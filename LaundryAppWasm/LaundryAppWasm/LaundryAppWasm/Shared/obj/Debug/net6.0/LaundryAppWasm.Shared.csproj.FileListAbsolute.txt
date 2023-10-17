@@ -9,3 +9,14 @@ C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryA
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\refint\LaundryAppWasm.Shared.dll
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.pdb
 C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\ref\LaundryAppWasm.Shared.dll
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\bin\Debug\net6.0\LaundryAppWasm.Shared.deps.json
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\bin\Debug\net6.0\LaundryAppWasm.Shared.dll
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\bin\Debug\net6.0\LaundryAppWasm.Shared.pdb
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.AssemblyInfoInputs.cache
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.AssemblyInfo.cs
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.dll
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\refint\LaundryAppWasm.Shared.dll
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\LaundryAppWasm.Shared.pdb
+C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Shared\obj\Debug\net6.0\ref\LaundryAppWasm.Shared.dll

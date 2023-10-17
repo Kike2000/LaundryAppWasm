@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2wG3/miPg6K+fzAz6lIr7knNoppphC9uXN2OYgQMS21P83nw+ldS5hTw81et3clyyEvyfTcVP4kYggmhOs7meA==",
+  "dgSpecHash": "mcOJSgd6eL1+M7gnYDpJBbCD9A7w8iSHLkg7CXJBnEUJsZTBaZ25INKVMRy8LdF6KbGpNHNXxOVpUW11GQpzpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\GitHub\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Shared\\LaundryAppWasm.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Fernando Huerta\\Source\\Repos\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\LaundryAppWasm\\Shared\\LaundryAppWasm.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -11,5 +11,6 @@ namespace LaundryAppWasm.Shared.Interfaces
     {
         Task<IEnumerable<ItemDTO>> GetItemsAsync();
         Task CreateITem(ItemDTO item);
+        Task<bool> DeleteItem(int Id);
     }
 }

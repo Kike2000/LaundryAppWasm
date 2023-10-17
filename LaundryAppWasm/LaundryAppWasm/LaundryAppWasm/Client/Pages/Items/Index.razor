@@ -17,6 +17,7 @@ else
             <tr>
                 <th>Name</th>
                 <th>Description</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -25,7 +26,11 @@ else
                 <tr>
                     <td>@item.Name</td>
                     <td>@item.Description</td>
+                    <td>
+                        <button @onclick="()=>RemoveItem(item.Id)" type="button" class="btn btn-danger float-end">Delete</button>
+                    </td>
                 </tr>
+
             }
         </tbody>
     </table>
@@ -66,6 +71,17 @@ else
         else
         {
             
+        }
+    }
+
+    private async Task RemoveItem(int id)
+    {
+        var response = await Http.DeleteAsync($"api/item/{id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadItems();
+            Item = new ItemDTO();
         }
     }
 

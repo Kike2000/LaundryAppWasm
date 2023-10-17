@@ -34,6 +34,14 @@ namespace LaundryAppWasm.Server.Repositories
             }
         }
 
+        public async Task<bool> DeleteItem(int Id)
+        {
+            var item = _context.Item.FirstOrDefault(x => x.Id == Id);
+            _context.Item.Remove(item);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<IEnumerable<ItemDTO>> GetItemsAsync()
         {
             return await _context.Item

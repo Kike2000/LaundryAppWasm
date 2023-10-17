@@ -18,7 +18,7 @@ namespace LaundryAppWasm.Server.Controllers
         }
 
         [HttpGet]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<IEnumerable<ItemDTO>>> Get()
         {
             var customers = await _itemInterface.GetItemsAsync();
@@ -32,6 +32,21 @@ namespace LaundryAppWasm.Server.Controllers
             {
                 await _itemInterface.CreateITem(model);
                 return Ok(model);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            finally { }
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            try
+            {
+                await _itemInterface.DeleteItem(id);
+                return Ok();
             }
             catch (Exception ex)
             {
