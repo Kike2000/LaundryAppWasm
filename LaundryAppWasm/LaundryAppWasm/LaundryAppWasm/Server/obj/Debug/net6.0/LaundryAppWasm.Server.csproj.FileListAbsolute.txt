@@ -250,3 +250,12 @@ C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWa
 C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.pdb
 C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\LaundryAppWasm.Server.genruntimeconfig.cache
 C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\obj\Debug\net6.0\ref\LaundryAppWasm.Server.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.Extensions.dll

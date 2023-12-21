@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LaundryAppWasm.Test
-build_property.ProjectDir = C:\Users\Fernando Huerta\Source\Repos\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm.Test\
+build_property.ProjectDir = C:\Users\pedro\OneDrive\Documentos\GitHub\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm\LaundryAppWasm.Test\

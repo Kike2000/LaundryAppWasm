@@ -27,6 +27,7 @@ builder.Services.AddScoped<IItem, ItemRepository>();
 builder.Services.AddScoped<ICustomer, CustomerRepository>();
 builder.Services.AddScoped<IEmployee, EmployeeRepository>();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSignalR(e => { e.MaximumReceiveMessageSize = 102400000; });
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -67,7 +68,12 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+    //endpoints.MapBlazorHub(options => options.WebSockets.CloseTimeout = new TimeSpan(1, 1, 1));
+    //endpoints.MapHub<LaundryAppWasm.Server.Helpers.SignalRHelper>(LaundryAppWasm.Server.Helpers.SignalRHelper.HubUrl);
+});
 
 app.MapRazorPages();
 app.MapControllers();

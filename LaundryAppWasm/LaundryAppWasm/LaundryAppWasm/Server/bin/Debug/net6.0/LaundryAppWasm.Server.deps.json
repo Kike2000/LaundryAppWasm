@@ -15,9 +15,11 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
           "Microsoft.AspNetCore.Identity.UI": "6.0.21",
+          "Microsoft.AspNetCore.SignalR.Client": "6.0.25",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
+          "Quick.AspNetCore.Components.Web.Extensions": "6.0.2",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -237,6 +239,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Connections.Abstractions/6.0.25": {
+        "dependencies": {
+          "Microsoft.Extensions.Features": "6.0.25",
+          "System.IO.Pipelines": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.21": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -253,6 +267,30 @@
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.2123.36438"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Client/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Common": "6.0.25",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll": {
+            "assemblyVersion": "6.0.25.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Common/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "6.0.25"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2523.52315"
           }
         }
       },
@@ -285,6 +323,56 @@
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.2223.42415"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Client": "6.0.25",
+          "Microsoft.AspNetCore.SignalR.Client.Core": "6.0.25"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SignalR.Client.dll": {
+            "assemblyVersion": "6.0.25.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client.Core/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "6.0.25",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "6.0.25",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll": {
+            "assemblyVersion": "6.0.25.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Common/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "6.0.25",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/6.0.25": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "6.0.25"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2523.52315"
           }
         }
       },
@@ -524,6 +612,14 @@
           "lib/net6.0/Microsoft.Extensions.DependencyModel.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Features/6.0.25": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2523.52315"
           }
         }
       },
@@ -838,6 +934,18 @@
           "System.Threading.Timer": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0"
+        }
+      },
+      "Quick.AspNetCore.Components.Web.Extensions/6.0.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.22",
+          "Microsoft.JSInterop": "6.0.21"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.Extensions.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1576,6 +1684,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Threading.Channels/6.0.0": {},
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1654,6 +1763,8 @@
           "Microsoft.AspNetCore.Components.Authorization": "6.0.22",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
+          "Microsoft.AspNetCore.SignalR.Client": "6.0.25",
+          "Quick.AspNetCore.Components.Web.Extensions": "6.0.2",
           "System.IdentityModel.Tokens.Jwt": "6.21.0"
         },
         "runtime": {
@@ -1799,6 +1910,13 @@
       "path": "microsoft.aspnetcore.components.webassembly.server/6.0.6",
       "hashPath": "microsoft.aspnetcore.components.webassembly.server.6.0.6.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Connections.Abstractions/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I0FppAyE8XVoun+E5dtPZcVIxKooo/7b2wZ/j0HuUXs3dATN1WZon2TxlqbynjkHHchqeAZLmQxBEOj7wx+NPw==",
+      "path": "microsoft.aspnetcore.connections.abstractions/6.0.25",
+      "hashPath": "microsoft.aspnetcore.connections.abstractions.6.0.25.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.21": {
       "type": "package",
       "serviceable": true,
@@ -1812,6 +1930,20 @@
       "sha512": "sha512-PhqdH0xiFqUqXe30Z1FI/YaD+c4lZFIQRcW3oBb9pnANmAVbXw+vz8f6BIvdwU/HIDUEaaB47TxUsfiXPhihMw==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.21",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.21.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Connections.Client/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dhx5Z0adYmeKlxxGEk0Ob8XKnCM/1WaBMujhDkrMm+RnKVzRbB6/0WyBd1AFw2WvJpjdfCI6FFXSEhYD+KrMxw==",
+      "path": "microsoft.aspnetcore.http.connections.client/6.0.25",
+      "hashPath": "microsoft.aspnetcore.http.connections.client.6.0.25.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Connections.Common/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PUPMFbcy0+8dR2zrD95+dHBIkuCm9HesUSx3OwQK02DCgnexFTABPHWblMYLsfjqwDjCejKNCamsWR5ga+CNbg==",
+      "path": "microsoft.aspnetcore.http.connections.common/6.0.25",
+      "hashPath": "microsoft.aspnetcore.http.connections.common.6.0.25.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.21": {
       "type": "package",
@@ -1833,6 +1965,34 @@
       "sha512": "sha512-BSXsopE/6JPjzkS4LM82b+VfKdFMjwSHxgjQjtRIEvn0tlSRpDKL3WvkCdTG5ooiDES7xso3gu3kt1qg1+cLXg==",
       "path": "microsoft.aspnetcore.metadata/6.0.22",
       "hashPath": "microsoft.aspnetcore.metadata.6.0.22.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Client/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jmp2ZH09EPgY5rCTHiSfO3r9fNNwXew4ioUBWl9RIsckrAXuzgYbbUVXxuAuJnR+u/tlANQZLDiLipGfSL2R2Q==",
+      "path": "microsoft.aspnetcore.signalr.client/6.0.25",
+      "hashPath": "microsoft.aspnetcore.signalr.client.6.0.25.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Client.Core/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iDMRBGRoIZtZUr8/rydJ7pQ/JOgdY5SXUoTmowasdG5H3tghQhDnN/k+ZYzbfSKx341dNUh2MR6Rz0Ykjdh/Iw==",
+      "path": "microsoft.aspnetcore.signalr.client.core/6.0.25",
+      "hashPath": "microsoft.aspnetcore.signalr.client.core.6.0.25.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Common/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-62dSAHrzWeoWi+CGz8H6hXReP9iObcGrj1/vM8ZDLifCW53xFpqMl4KhaWSs7UGkk3a5kcKMwRyGMCMY/efncQ==",
+      "path": "microsoft.aspnetcore.signalr.common/6.0.25",
+      "hashPath": "microsoft.aspnetcore.signalr.common.6.0.25.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/UB7eEZyqjmxoNl+fm4SlxCr0zheqd2qPwAfDKs2QkTioBwiXcua2eHgGn7JyrhgSu1hTBM8isR3TG6douj6lQ==",
+      "path": "microsoft.aspnetcore.signalr.protocols.json/6.0.25",
+      "hashPath": "microsoft.aspnetcore.signalr.protocols.json.6.0.25.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1987,6 +2147,13 @@
       "sha512": "sha512-oONNYd71J3LzkWc4fUHl3SvMfiQMYUCo/mDHDEu76hYYxdhdrPYv6fvGv9nnKVyhE9P0h20AU8RZB5OOWQcAXg==",
       "path": "microsoft.extensions.dependencymodel/7.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Features/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apyLTvS4Dodvk8ilK6AFBJNv3YqJ+roqO1lgMHWaAH8/nQ29jnM8QFqdxlaiYG6/X4oaA12WDprESLWCEABy9Q==",
+      "path": "microsoft.extensions.features/6.0.25",
+      "hashPath": "microsoft.extensions.features.6.0.25.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
       "type": "package",
@@ -2190,6 +2357,13 @@
       "sha512": "sha512-WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
+    },
+    "Quick.AspNetCore.Components.Web.Extensions/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppLXEca1BL48Sgq0MZyBsQlH0TJXkqY8uqoXl4xv5mpJDBbft6aa4ACOQNztWXwjX0ry13ebDfQLQIgmfekK2w==",
+      "path": "quick.aspnetcore.components.web.extensions/6.0.2",
+      "hashPath": "quick.aspnetcore.components.web.extensions.6.0.2.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -2792,6 +2966,13 @@
       "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "path": "system.threading/4.3.0",
       "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
     "System.Threading.Tasks/4.3.0": {
       "type": "package",

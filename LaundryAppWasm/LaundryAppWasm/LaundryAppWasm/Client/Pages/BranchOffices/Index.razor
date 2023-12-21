@@ -1,0 +1,86 @@
+﻿@page "/Branches"
+@using LaundryAppWasm.Shared
+@using LaundryAppWasm.Shared.DTOs
+@inject HttpClient Http
+
+<PageTitle>Index</PageTitle>
+
+
+@if (BranchesDTO == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in BranchesDTO)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>
+                        <button @onclick="()=>RemoveItem(item.Id)" type="button" class="btn btn-danger float-end">Delete</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+<h3>Create Branch</h3>
+
+<label>Name:</label>
+<input @bind="Item.Name" />
+<label>Information:</label>
+<input @bind="Item.Description" />
+
+<button @onclick="CreateItem">Create</button>
+
+@code {
+    private IEnumerable<ItemDTO>? BranchesDTO;
+    public ItemDTO Item { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        BranchesDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
+    }
+    private async Task LoadItems()
+    {
+        BranchesDTO = await Http.GetFromJsonAsync<List<ItemDTO>>("api/item");
+    }
+    private async Task CreateItem()
+    {
+        var response = await Http.PostAsJsonAsync("api/item", Item);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadItems();
+            Item = new ItemDTO();
+        }
+        else
+        {
+
+        }
+    }
+
+    private async Task RemoveItem(int id)
+    {
+        var response = await Http.DeleteAsync($"api/item/{id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadItems();
+            Item = new ItemDTO();
+        }
+    }
+
+}
